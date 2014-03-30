@@ -10,6 +10,7 @@
 		097B282218E7919C004ACCA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097B282118E7919C004ACCA4 /* Foundation.framework */; };
 		097B282518E7919C004ACCA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 097B282418E7919C004ACCA4 /* main.m */; };
 		097B282918E7919C004ACCA4 /* AES256Encrypter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 097B282818E7919C004ACCA4 /* AES256Encrypter.1 */; };
+		097B283118E7922A004ACCA4 /* NSDataAES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 097B283018E7922A004ACCA4 /* NSDataAES256.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		097B282418E7919C004ACCA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		097B282718E7919C004ACCA4 /* AES256Encrypter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AES256Encrypter-Prefix.pch"; sourceTree = "<group>"; };
 		097B282818E7919C004ACCA4 /* AES256Encrypter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AES256Encrypter.1; sourceTree = "<group>"; };
+		097B282F18E7922A004ACCA4 /* NSDataAES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAES256.h; sourceTree = "<group>"; };
+		097B283018E7922A004ACCA4 /* NSDataAES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAES256.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		097B282318E7919C004ACCA4 /* AES256Encrypter */ = {
 			isa = PBXGroup;
 			children = (
+				097B282F18E7922A004ACCA4 /* NSDataAES256.h */,
+				097B283018E7922A004ACCA4 /* NSDataAES256.m */,
 				097B282418E7919C004ACCA4 /* main.m */,
 				097B282818E7919C004ACCA4 /* AES256Encrypter.1 */,
 				097B282618E7919C004ACCA4 /* Supporting Files */,
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				097B283118E7922A004ACCA4 /* NSDataAES256.m in Sources */,
 				097B282518E7919C004ACCA4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

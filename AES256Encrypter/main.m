@@ -2,8 +2,7 @@
 //  main.m
 //  AES256Encrypter
 //
-//  Created by David Hilowitz on 3/29/14.
-//  Copyright (c) 2014 Decidedly. All rights reserved.
+//  Utility created by David Hilowitz on 3/29/14.
 //
 
 #import <Foundation/Foundation.h>

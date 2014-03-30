@@ -1,9 +1,10 @@
 //
-//  NSDataAES256.m
-//  PlistEncrypter
+//  NSDataAES256.h
+//  AES256Encrypter
 //
-//  Created by David Hilowitz on 3/29/14.
-//  Copyright (c) 2014 Decidedly. All rights reserved.
+//  Posted by @karl (www.mindsnacks.com)
+//  This code was taken from the following message board thread:
+//  http://www.cocos2d-iphone.org/forums/topic/saved-state-encryption/#post-286058
 //
 
 #import "NSDataAES256.h"
